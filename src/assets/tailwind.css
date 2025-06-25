@@ -1,0 +1,13 @@
+/* Importation des directives de base de Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles personnalisés ou overrides de Tailwind si nécessaire */
+/* Exemple:
+body {
+  @apply font-sans antialiased text-gray-900;
+}
+*/
+/* Assurez-vous que votre processus de build (ex: Vite, Vue CLI) est configuré
+   pour traiter ce fichier avec PostCSS et Tailwind CSS. */
